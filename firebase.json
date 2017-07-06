@@ -1,15 +1,5 @@
 {
   "hosting": {
-    "public": "/src",
-    "rewrites": [
-      {
-        "source": "/favicon.ico",
-        "destination": "src/favicon.ico"
-      },
-      {
-        "source": "**",
-        "destination": "src/index.html"
-      }
-    ]
+    "public": "src"
   }
 }
